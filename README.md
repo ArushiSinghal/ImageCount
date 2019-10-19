@@ -44,7 +44,7 @@
 * npm run test
 
 ### Run Backend Test
-* Open a New Terminal
+* Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
 * cd imageurl
 * python manage.py test
 
