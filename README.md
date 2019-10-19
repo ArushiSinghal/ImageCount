@@ -20,9 +20,10 @@
 * sudo apt-get install python3-venv (Virtual Environment)
 * python3 -m venv myvenv
 * source myvenv/bin/activate
-* pip3 install -r requirements.txt
 * sudo apt install nodejs
 * sudo npm i -g npx
 * npm config set proxy http://proxy_host:port (For setting proxy, if required)
+* pip3 install -r requirements.txt
+
 
 
