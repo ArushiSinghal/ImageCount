@@ -28,8 +28,10 @@
 ### Start React Server
 * Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
 * cd frontend
+* npm cache clean --force
+* rm -rf node_modules and rm package-lock.json
 * npm install
-* npm start
+* npm run build
 
 ### Start Django Server
 * Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
