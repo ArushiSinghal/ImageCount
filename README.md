@@ -22,7 +22,7 @@
 * source myvenv/bin/activate
 * sudo apt install nodejs
 * sudo npm i -g npx
-* npm config set proxy http://<proxy_host>:<port> (For setting proxy, if required)
+* npm config set proxy http://proxy_host:port (For setting proxy, if required)
 * pip3 install -r requirements.txt
 
 
