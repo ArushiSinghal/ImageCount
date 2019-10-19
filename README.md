@@ -19,11 +19,24 @@
 * python3 -m pip install --upgrade pip (Install Pip)
 * sudo apt-get install python3-venv (Virtual Environment)
 * python3 -m venv myvenv
-* source myvenv/bin/activate
+* source myvenv/bin/activate (Activate Virtual Environment)
 * sudo apt install nodejs
 * sudo npm i -g npx
 * npm config set proxy http://proxy_host:port (For setting proxy, if required)
 * pip3 install -r requirements.txt
+
+### Start React Server
+* Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
+* cd frontend
+* npm install
+* npm start
+
+### Start Django Server
+* Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
+* cd imageurl
+* python manage.py migrate
+* python manage.py makemigrations
+* python manage.py runserver
 
 
 
