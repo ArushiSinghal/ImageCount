@@ -26,12 +26,10 @@
 * pip3 install -r requirements.txt
 
 ### Start React Server
-* Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
+* Open a New Terminal
 * cd frontend
-* npm cache clean --force
-* rm -rf node_modules and rm package-lock.json
 * npm install
-* npm run build
+* npm run start
 
 ### Start Django Server
 * Open a New Terminal and activate virtual environment (source myvenv/bin/activate)
