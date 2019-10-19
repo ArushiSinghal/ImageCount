@@ -1,4 +1,4 @@
-# PerconaTest
+# Image Count
 
 ## Installation
 
@@ -11,8 +11,8 @@
 
 ### Setup
 * [Install and configure Git](https://www.linode.com/docs/development/version-control/how-to-install-git-and-clone-a-github-repository/)
-* git clone https://github.com/ArushiSinghal/ImageUrl.git
-* cd ImageUrl
+* git clone https://github.com/ArushiSinghal/ImageCount.git
+* cd ImageCount
 * sudo apt-get update
 * sudo apt-get upgrade
 * sudo apt-get install python3 (sudo apt-get upgrade python3)
