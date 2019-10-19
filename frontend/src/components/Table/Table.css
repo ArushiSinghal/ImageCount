@@ -1,0 +1,17 @@
+.Table {
+    margin-top: 1rem;
+}
+
+thead {
+    color:#2ea591;
+    font-weight: 600;
+}
+tbody {color: black;}
+
+table, th, td {
+    border: 1px solid #92b0b3;
+}
+
+td, th{
+ padding: 5px;
+}
