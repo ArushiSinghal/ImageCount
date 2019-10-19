@@ -22,13 +22,13 @@ class URLView(APIView):
             try:
                 file_data = request.FILES['datafile'].read().decode("utf-8")
             except (IOError,ValueError) as e:
-                print('error', e)
+                # print('error', e)
                 return Response(e, status=status.HTTP_400_BAD_REQUEST)
             
             return JsonResponse(self.__urlExtract(file_data), safe=False, status=status.HTTP_201_CREATED)
 
         else:
-            print('error', posts_serializer.errors)
+            # print('error', posts_serializer.errors)
             return Response(posts_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def __urlExtract(self, text_data):
