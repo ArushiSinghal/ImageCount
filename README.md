@@ -38,5 +38,15 @@
 * python manage.py makemigrations
 * python manage.py runserver
 
+### Run frontend Test
+* Open a New Terminal
+* cd frontend
+* npm run test
+
+### Run Backend Test
+* Open a New Terminal
+* cd imageurl
+* python manage.py test
+
 
 
