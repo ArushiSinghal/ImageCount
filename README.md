@@ -1,4 +1,5 @@
 # Image Count
+This web-site gives the count of images in a URL.
 
 ## Installation
 
@@ -7,6 +8,8 @@
 * Git
 * Python 3.6.8
 * pip 9.0.1
+* React
+* Django
 
 
 ### Setup
